@@ -54,3 +54,7 @@
 	hr.transparant {
 		opacity: 0
 	}
+
+/*-- Grow animate --*/
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.27); }
