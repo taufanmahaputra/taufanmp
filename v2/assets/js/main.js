@@ -418,4 +418,5 @@
 	    proximity: 100
 	});  	
 
+
 })(jQuery);

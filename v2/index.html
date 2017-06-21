@@ -1,9 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-101420810-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="An Portfolio Web">
+		<meta name="description" content="Journey of mine">
     <meta name="author" content="Taufan Mahaputra">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -11,8 +21,8 @@
 		<title>Taufan Mahaputra</title>
 		<link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
 
-		<!-- Bootstrap Core CSS -->
-		<!-- <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type='text/css'/> -->
+		<!-- Font Roboto CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -40,22 +50,63 @@
 						<nav>
 							<ul>
 								<li><a href="#">Intro</a></li>
-								<li><a href="#">Work</a></li>
-								<li><a href="#">About</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
 						<ul class="icons">
-							<li><a href="https://twitter.com/@taufanmahaputra" class="icon fa-twitter grow" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/taufan.zzz" class="icon fa-facebook grow" target="_blank"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/basreng/" class="icon fa-instagram grow" target="_blank"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/taufanmahaputra/" class="icon fa-github grow" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="https://twitter.com/@taufanmahaputra" class="icon fa-twitter grow" target="_blank" title="Twitter"></a></li>
+							<li><a href="https://www.facebook.com/taufan.zzz" class="icon fa-facebook grow" target="_blank" title="Facebook"></a></li>
+							<li><a href="https://www.linkedin.com/in/taufan-mahaputra/" class="icon fa-linkedin grow" title="LinkedIn"></a></li>
+							<li><a href="https://www.instagram.com/basreng/" class="icon fa-instagram grow" target="_blank" title="Instagram"></a></li>
+							<li><a href="https://github.com/taufanmahaputra/" class="icon fa-github grow" target="_blank" title="GitHub"></a></li>
 						</ul>
 					</header>
 
 				<!-- Main -->
 
 					<div id="main">
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work</h2>
+								<div class=grid>
+									<div class="ih-item square effect6 top_to_bottom">
+										<a href="#">
+							        <div class="img"><img src="images/randomquote.png" alt="img"></div>
+							        <div class="info">
+							          <h3>RanQue</h3>
+							          <p>Random Quote Generator Web</p>
+							        </div>
+						        </a>
+					        </div>
+
+					        <div class="ih-item square effect6 top_to_bottom">
+										<a href="#">
+							        <div class="img"><img src="images/saustartar.png" alt="img"></div>
+							        <div class="info">
+							          <h3>TarTar</h3>
+							          <p>News Aggregator Web</p>
+							        </div>
+						        </a>
+					        </div>
+					       </div> <!-- End of grid -->
+						
+							</article>
+
+
+						<!-- About -->
+							<article id="about">
+							<h2 class="major">Hi!</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p style="text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+								I am a 4th grader of bachelor degree in informatics engineering at Bandung Institute of Technology. While i have a comprehensive informatics background, my emphasis is on solving problem with innovation. Someone said that, dont just solving problem but be solution maker!
+								<br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+								As an Infomatics student I have been extensively involved in my major, which has allowed me to develop strong interpersonal skills. 
+								During the lecture I do many tasks of the course of study. Work alone or as a team. From these tasks I learned a lot about programming and how to solve problems with it. I enjoy working with others. And also some committees help develop my communication skills. My curiosity with informatics technology is huge, I am exploring the sciences that are being used now and trying to develop something with it.</p>
+							</article>
+
 
 						<!-- Contact -->
 							<article id="contact" class="align-center">
@@ -66,11 +117,8 @@
 								<i class="fa fa-mobile fa-2x animate"></i> <br><span class="text-contact">+62 858-8337-0812 </span><br><hr>
 								<i class="fa fa-user fa-2x animate"></i> <br><span class="text-contact">Line : taufanmahaputra</span>
 							</article>
-
-						
-
-					</div>
-
+					</div> <!-- End of main -->
+ 
 
 				<!-- Footer -->
 					<footer id="footer">
