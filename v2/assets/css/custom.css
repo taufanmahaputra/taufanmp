@@ -220,11 +220,11 @@ font-family: 'Roboto', sans-serif;
 
 .lightbox-target {
 position: fixed;
-margin-top: 60px;
+margin-top: 150px;
 height: 600px;
 top: -200%;
 width: 95%;
-background: rgba(27, 31, 34, 0.85);
+background: rgba(27, 31, 34, 0.95);
 opacity: 0;
 -webkit-transition: opacity .5s ease-in-out;
 -moz-transition: opacity .5s ease-in-out;
@@ -251,11 +251,6 @@ box-sizing: border-box;
 -moz-transition: .5s ease-in-out;
 -o-transition: .5s ease-in-out;
 transition: .5s ease-in-out;
-}
-
-.lightbox-target h3 {
-	position: relative;
-	margin: 2px auto;
 }
 
 /* Styles the close link, adds the slide down transition */
@@ -378,4 +373,35 @@ a.lightbox-go:hover {
 
 .lightbox-target:target a.lightbox-go {
 	bottom: 35px;
+}
+
+/* LightBox Typography */
+.lightbox-target h3 {
+ margin-top: 45px;
+ font: 600 1.5em/1 'Raleway', sans-serif;
+ color: rgba(255,255,255,1);
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: .5em;
+}
+
+.lightbox-target p {
+/*add animation*/
+}
+.code {
+ font-family: "Lucida Grande", Tahoma;
+ font-size: 10px;
+ font-weight: lighter;
+ font-variant: normal;
+ text-transform: uppercase;
+ color: #fff;
+ margin-top: 10px;
+ text-align: center!important;
+ letter-spacing: 0.3em;
+}
+
+.caption {
+ position: absolute;
+ bottom: 38px;
+ background: -webkit-linear-gradient(top, rgba(27, 31, 34,0), rgba(27, 31, 34, .95));
 }
